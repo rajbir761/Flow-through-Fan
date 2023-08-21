@@ -1,0 +1,87 @@
+ANSYS Report
+
+ANSYS Logo: AnsysReportLogo.png
+
+Date:  2023/08/21 11:41:08
+
+______________________________________________________________________
+
+Contents
+1. File Report
+    Table 1  File Information for CFX
+2. Mesh Report
+    Table 2  Mesh Information for CFX
+3. Physics Report
+    Table 3  Domain Physics for CFX
+    Table 4  Boundary Physics for CFX
+4. User Data
+______________________________________________________________________
+
+1. File Report
+
+Table 1.  File Information for CFX
+Case	CFX
+File Path	C:\Users\rajbi\OneDrive\Desktop\ansys projects\propeller-rotor-catia-ansys-1.snapshot.7\sonfan_files\dp0\CFX\CFX\Fluid Flow CFX_001.res
+File Date	11 May 2023
+File Time	08:36:52 PM
+File Type	CFX5
+File Version	19.5
+
+
+2. Mesh Report
+
+Table 2.  Mesh Information for CFX
+Domain	Nodes	Elements
+fluid	7960	41116
+
+
+3. Physics Report
+
+Table 3.  Domain Physics for CFX
+Domain - fluid	
+Type	Fluid
+Location	B135
+Materials	
+water	
+     Fluid Definition	Material Library
+     Morphology	Continuous Fluid
+Settings	
+Buoyancy Model	Non Buoyant
+Domain Motion	Stationary
+Reference Pressure	  1.0000e+0 [atm]
+Turbulence Model	Laminar
+
+
+Table 4.  Boundary Physics for CFX
+Domain	Boundaries	
+fluid	Boundary - inlet	
+	Type	INLET
+	Location	inlet
+	Settings	
+	Flow Regime	Subsonic
+	Mass And Momentum	Normal Speed
+	     Normal Speed	  6.4000e+1 [m s^-1]
+	Boundary - outlet	
+	Type	OUTLET
+	Location	outlet
+	Settings	
+	Flow Regime	Subsonic
+	Mass And Momentum	Average Static Pressure
+	     Pressure Profile Blend	  5.0000e-2
+	     Relative Pressure	  0.0000e+0 [Pa]
+	Pressure Averaging	Average Over Whole Outlet
+	Boundary - fluid Default	
+	Type	WALL
+	Location	"F142.135, F143.135, F144.135, F145.135, F146.135, F147.135, F148.135, F149.135, F150.135, F151.135, F152.135, F153.135, F154.135, F155.135, F156.135, F157.135, F158.135, F159.135, F160.135, F161.135, F162.135, F163.135, F164.135, F165.135, F166.135, F167.135, F168.135, F169.135, F170.135, F171.135, F172.135, F173.135, F174.135, F175.135, F176.135, F177.135, F178.135, F179.135, F180.135, F181.135, F182.135, F183.135, F184.135, F185.135, F186.135, F187.135, F188.135, F189.135, F190.135, F191.135, F192.135, F193.135, F194.135, F195.135, F196.135, F197.135, F198.135, F199.135, F200.135, F201.135"
+	Settings	
+	Mass And Momentum	No Slip Wall
+	Boundary - wall	
+	Type	WALL
+	Location	wall
+	Settings	
+	Mass And Momentum	No Slip Wall
+
+
+4. User Data
+
+
